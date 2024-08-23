@@ -3338,7 +3338,7 @@ const Home = () => {
     formData.append("gstNumber", gstNumber);
     formData.append("epfoNumber", epfoNumber);
     if (file) formData.append("file", file);
-    // await fetch("/api/post", {
+    // const response = await fetch("/api/report", {
     //   method: "POST",
     //   body: formData,
     // });
