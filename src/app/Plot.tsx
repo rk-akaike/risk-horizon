@@ -14,11 +14,7 @@ interface PlotProps {
 }
 
 const PlotGraph: FC<PlotProps> = ({ data, layout }) => {
-  return (
-    <div className="flex flex-wrap">
-      <Plot data={data} layout={layout} />
-    </div>
-  );
+  return <Plot data={data} layout={layout} className="h-[450px] w-[450px]" />;
 };
 
 export default PlotGraph;
